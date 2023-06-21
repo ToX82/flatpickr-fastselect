@@ -1,0 +1,24 @@
+{
+  "name": "flatpickr-fast-select",
+  "version": "1.0.1",
+  "description": "Fast Select plugin for Flatpickr",
+  "main": "flatpickr-fastselect.js",
+  "keywords": [
+    "flatpickr",
+    "date-picker",
+    "plugin"
+  ],
+  "author": "Emanuele Toscano",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToX82/flatpickr-fastselect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ToX82/flatpickr-fastselect/issues"
+  },
+  "homepage": "https://github.com/ToX82/flatpickr-fastselect#readme",
+  "dependencies": {
+    "flatpickr": "^4"
+  }
+}

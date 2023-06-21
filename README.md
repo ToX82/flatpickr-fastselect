@@ -19,10 +19,10 @@ You can nclude flatpickr and flatpickr-fastselect files from jsdelivr.
 
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4/dist/flatpickr.min.css">
-<link href="https://cdn.jsdelivr.net/npm/flatpickr-fastselect@1/flatpickr-fastselect.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr-fast-select@1/flatpickr-fastselect.min.css">
 
 <script src="https://cdn.jsdelivr.net/npm/flatpickr@4/dist/flatpickr.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr-fastselect@1/flatpickr-fastselect.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr-fast-select@1/flatpickr-fastselect.min.js"></script>
 ```
 
 ### Manual Installation
@@ -58,11 +58,15 @@ var fp = flatpickr("#myDatePicker", {
       { text: 'Last week', value: [ new Date(new Date().getTime() - 7 * 24 * 60 * 60 * 1000) ] },
       { text: 'Yesterday', value: [ new Date(new Date().getTime() - 24 * 60 * 60 * 1000) ] },
       { text: 'Today', value: [ new Date(new Date()) ] },
+      { text: 'Tomorrow', value: [ new Date(new Date().getTime() + 24 * 60 * 60 * 1000) ] },
+      // ... 
     ],
   })],
 });
-
 ```
+
+
+
 ## Plugin Options
 The Fast Select plugin only accepts the shortcut array, with the values mentioned above. You can customize those values according to your needs though.
 
