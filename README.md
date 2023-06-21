@@ -2,6 +2,9 @@
 
 The Flatpickr Fast Select plugin extends the functionality of Flatpickr by allowing quick selection of a single date using predefined shortcuts.
 
+![Screenshot of Flatpickr Fast Select plugin](https://github.com/ToX82/flatpickr-fastselect/assets/659492/c67bd58c-ba78-45d3-9407-a371337ab3b7)
+
+
 ## Installation
 
 To use the Fast Select plugin, you need to include both Flatpickr and the plugin file in your project. You can install them using npm, jsdelivr or include the files manually in your project.
@@ -64,8 +67,6 @@ var fp = flatpickr("#myDatePicker", {
   })],
 });
 ```
-
-
 
 ## Plugin Options
 The Fast Select plugin only accepts the shortcut array, with the values mentioned above. You can customize those values according to your needs though.
